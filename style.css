@@ -1,17 +1,50 @@
-*{
-    margin: auto;
-    padding: auto;
-}
 body{
+    padding: auto;
+    margin: auto;
+    box-shadow: none;
+    background: #000a1f;
+}
+
+nav{
+    /* background: rgba(0, 0, 0, 0.827); */
+    color: white;
+    width: 100%;
+    overflow:hidden;
+    
+}
+.barra-navegacion{
+    display:flex;
+    justify-content: center;
+    align-items:center; 
+    letter-spacing: 2px;
+    padding-top: 15px; 
+    
+}
+.barra-navegacion p{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0px 10px;
 
 }
-.habilidades{
+main{
+    display: grid;
+    place-content: center;
+    margin: 0px 200px;
+}
+section{
+    background: red;
+}
+.content-presentacion{
+    padding: 20px;
+    height: 570px;
+    overflow: hidden;
+    
     display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
-p{
-    text-align: center;
-}
-img{
-    height: 100px;
-    width: 100px;
+.foto{
+    height: 15rem;
+    width: 15rem;
 }
